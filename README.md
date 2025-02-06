@@ -1,1 +1,3 @@
 # EuphoriaApp
+
+Basic streaming app
