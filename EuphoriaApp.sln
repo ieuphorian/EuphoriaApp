@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EuphoriaApp.StreamingServer", "EuphoriaApp.StreamingServer\EuphoriaApp.StreamingServer.csproj", "{DD81635E-B559-47E9-BCD7-54E61E0A0D55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EuphoriaApp.StreamingStreamer", "EuphoriaApp.StreamingStreamer\EuphoriaApp.StreamingStreamer.csproj", "{E3DE91BB-FE86-483A-A3EB-B551B4271955}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55} = {DD81635E-B559-47E9-BCD7-54E61E0A0D55}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EuphoriaApp.StreamingClientForm", "EuphoriaApp.StreamingClientForm\EuphoriaApp.StreamingClientForm.csproj", "{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55} = {DD81635E-B559-47E9-BCD7-54E61E0A0D55}
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955} = {E3DE91BB-FE86-483A-A3EB-B551B4271955}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Debug|x64.ActiveCfg = Debug|x64
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Debug|x64.Build.0 = Debug|x64
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Release|x64.ActiveCfg = Release|x64
+		{DD81635E-B559-47E9-BCD7-54E61E0A0D55}.Release|x64.Build.0 = Release|x64
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Debug|x64.ActiveCfg = Debug|x64
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Debug|x64.Build.0 = Debug|x64
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Release|x64.ActiveCfg = Release|x64
+		{E3DE91BB-FE86-483A-A3EB-B551B4271955}.Release|x64.Build.0 = Release|x64
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Debug|x64.ActiveCfg = Debug|x64
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Debug|x64.Build.0 = Debug|x64
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Release|x64.ActiveCfg = Release|x64
+		{7C49716C-54BD-42F5-A155-B5E09B8C7F5C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {588C2812-FF1E-41CD-BA11-EA69238A3DFD}
+	EndGlobalSection
+EndGlobal
